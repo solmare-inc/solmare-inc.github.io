@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー｜solmare株式会社</title>
+<meta name="description" content="solmare株式会社のプライバシーポリシー。個人情報の取得・利用目的・第三者提供・保護管理・開示請求・お問い合わせ窓口について記載しております。">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="<CANONICAL_URL>privacy-policy.html">
+
+<!-- OGP -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="solmare株式会社">
+<meta property="og:title" content="プライバシーポリシー｜solmare株式会社">
+<meta property="og:description" content="solmare株式会社のプライバシーポリシー。">
+<meta property="og:url" content="<CANONICAL_URL>privacy-policy.html">
+<meta property="og:image" content="<OG_IMAGE_URL>">
+<meta property="og:locale" content="ja_JP">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="<FAVICON_PATH>">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- JSON-LD: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "<CANONICAL_URL>" },
+    { "@type": "ListItem", "position": 2, "name": "プライバシーポリシー", "item": "<CANONICAL_URL>privacy-policy.html" }
+  ]
+}
+</script>
+
+<style>
+:root {
+  --color-base: #faf8f3;
+  --color-base-deep: #f3efe5;
+  --color-navy: #1a2849;
+  --color-navy-light: #2a3a5e;
+  --color-green: #2c4a3a;
+  --color-gold: #b8985a;
+  --color-gold-soft: #d4bc89;
+  --color-text: #2a2a2a;
+  --color-text-mute: #5a5a5a;
+  --color-line: #d9d3c4;
+  --color-line-soft: #e8e2d2;
+
+  --font-jp-serif: "Noto Serif JP", "游明朝", "Yu Mincho", serif;
+  --font-jp-sans: "Noto Sans JP", "游ゴシック体", "Yu Gothic", sans-serif;
+  --font-en-serif: "Cormorant Garamond", "Georgia", serif;
+  --font-en-sans: "Inter", "Helvetica Neue", sans-serif;
+
+  --max-w: 1180px;
+  --max-w-narrow: 820px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-jp-sans);
+  font-size: 17px;
+  line-height: 2.1;
+  letter-spacing: 0.06em;
+  color: var(--color-text);
+  background-color: var(--color-base);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { color: var(--color-navy); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.3s ease; }
+a:hover { color: var(--color-gold); }
+
+/* ===== ヘッダー（index と共通） ===== */
+.site-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background-color: rgba(250, 248, 243, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 1000;
+  transition: box-shadow 0.4s ease, padding 0.4s ease;
+  padding: 22px 0;
+  border-bottom: 1px solid transparent;
+}
+.site-header.scrolled {
+  box-shadow: 0 2px 24px rgba(26, 40, 73, 0.06);
+  padding: 14px 0;
+  border-bottom-color: var(--color-line-soft);
+}
+.header-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: var(--font-en-serif);
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--color-navy);
+  text-decoration: none;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+.logo:hover { color: var(--color-gold); }
+.logo:hover .logo-mark { color: var(--color-navy); }
+.logo-mark {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-gold);
+  height: 22px;
+  width: 48px;
+  transition: color 0.3s ease;
+}
+.logo-mark svg {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-pc {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+}
+.nav-pc a {
+  font-family: var(--font-en-sans);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 3px;
+}
+.nav-pc a::after {
+  content: "";
+  position: absolute;
+  left: 50%; bottom: 0;
+  width: 0; height: 1px;
+  background: var(--color-gold);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+.nav-pc a:hover::after { width: 100%; }
+
+.nav-cta {
+  display: inline-block;
+  padding: 11px 22px;
+  background: var(--color-navy);
+  color: var(--color-base) !important;
+  font-family: var(--font-en-sans);
+  font-size: 11px !important;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  transition: background 0.3s ease;
+  border: 1px solid var(--color-navy);
+}
+.nav-cta::after { display: none; }
+.nav-cta:hover { background: var(--color-gold); border-color: var(--color-gold); color: var(--color-base) !important; }
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  width: 44px; height: 44px;
+  cursor: pointer;
+  position: relative;
+}
+.nav-toggle span {
+  display: block;
+  position: absolute;
+  left: 10px; right: 10px;
+  height: 1px;
+  background: var(--color-navy);
+  transition: all 0.3s ease;
+}
+.nav-toggle span:nth-child(1) { top: 16px; }
+.nav-toggle span:nth-child(2) { top: 22px; }
+.nav-toggle span:nth-child(3) { top: 28px; }
+.nav-toggle[aria-expanded="true"] span:nth-child(1) { top: 22px; transform: rotate(45deg); }
+.nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.nav-toggle[aria-expanded="true"] span:nth-child(3) { top: 22px; transform: rotate(-45deg); }
+
+.nav-mobile {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: var(--color-base);
+  z-index: 999;
+  padding: 100px 32px 40px;
+  flex-direction: column;
+  gap: 28px;
+  overflow-y: auto;
+}
+.nav-mobile.open { display: flex; }
+.nav-mobile a {
+  font-family: var(--font-jp-serif);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--color-navy);
+  text-decoration: none;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--color-line-soft);
+}
+.nav-mobile a small {
+  display: block;
+  font-family: var(--font-en-sans);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--color-text-mute);
+  margin-top: 6px;
+  text-transform: uppercase;
+}
+
+/* ===== ページヘッダー ===== */
+.page-hero {
+  padding: 180px 32px 100px;
+  background:
+    radial-gradient(ellipse at 80% 20%, rgba(184, 152, 90, 0.06), transparent 50%),
+    linear-gradient(180deg, var(--color-base) 0%, var(--color-base-deep) 100%);
+  position: relative;
+  overflow: hidden;
+}
+.page-hero::before {
+  content: "";
+  position: absolute;
+  top: 0; right: 0;
+  width: 40%; height: 100%;
+  background-image:
+    linear-gradient(rgba(26, 40, 73, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26, 40, 73, 0.03) 1px, transparent 1px);
+  background-size: 80px 80px;
+  pointer-events: none;
+}
+.page-hero-inner {
+  max-width: var(--max-w-narrow);
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.breadcrumb {
+  font-family: var(--font-en-sans);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-text-mute);
+  margin-bottom: 32px;
+}
+.breadcrumb a {
+  color: var(--color-text-mute);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.breadcrumb a:hover { color: var(--color-gold); }
+.breadcrumb .sep { margin: 0 12px; color: var(--color-gold); }
+
+.page-hero h1 {
+  font-family: var(--font-jp-serif);
+  font-size: clamp(32px, 4.5vw, 52px);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  color: var(--color-navy);
+  margin-bottom: 24px;
+}
+.page-hero .en-label {
+  display: block;
+  font-family: var(--font-en-serif);
+  font-style: italic;
+  font-size: 20px;
+  color: var(--color-gold);
+  margin-bottom: 16px;
+  letter-spacing: 0.05em;
+}
+.page-hero .lead {
+  font-size: 16px;
+  color: var(--color-text-mute);
+  line-height: 2.0;
+  max-width: 620px;
+}
+
+/* ===== 本文 ===== */
+.policy-content {
+  padding: 80px 32px 120px;
+  background: var(--color-base);
+}
+.policy-inner {
+  max-width: var(--max-w-narrow);
+  margin: 0 auto;
+}
+.policy-intro {
+  padding: 32px 36px;
+  background: var(--color-base-deep);
+  border-left: 2px solid var(--color-gold);
+  margin-bottom: 64px;
+  font-size: 15px;
+  line-height: 2.0;
+  color: var(--color-text);
+}
+.policy-article {
+  margin-bottom: 56px;
+}
+.policy-article h2 {
+  font-family: var(--font-jp-serif);
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--color-navy);
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--color-line);
+  position: relative;
+  padding-left: 44px;
+}
+.policy-article h2::before {
+  content: counter(policy-counter, decimal-leading-zero);
+  counter-increment: policy-counter;
+  position: absolute;
+  left: 0; top: 4px;
+  font-family: var(--font-en-serif);
+  font-style: italic;
+  font-size: 20px;
+  color: var(--color-gold);
+  font-weight: 400;
+}
+.policy-inner { counter-reset: policy-counter; }
+
+.policy-article p {
+  margin-bottom: 1.4em;
+  font-size: 16px;
+  line-height: 2.0;
+}
+.policy-article p:last-child { margin-bottom: 0; }
+.policy-article ul {
+  list-style: none;
+  margin: 1em 0 1.4em;
+  padding-left: 0;
+}
+.policy-article ul li {
+  padding: 6px 0 6px 20px;
+  position: relative;
+  font-size: 16px;
+  line-height: 1.95;
+}
+.policy-article ul li::before {
+  content: "—";
+  position: absolute;
+  left: 0; top: 6px;
+  color: var(--color-gold);
+}
+
+.policy-contact-box {
+  background: var(--color-navy);
+  color: var(--color-base);
+  padding: 40px 36px;
+  margin-top: 16px;
+}
+.policy-contact-box p {
+  color: var(--color-base);
+}
+.policy-contact-box a {
+  color: var(--color-gold-soft);
+  font-weight: 500;
+}
+.policy-contact-box a:hover { color: var(--color-base); }
+
+.policy-meta {
+  margin-top: 80px;
+  padding-top: 36px;
+  border-top: 1px solid var(--color-line);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 14px;
+  color: var(--color-text-mute);
+  letter-spacing: 0.05em;
+}
+.policy-meta dt {
+  display: inline-block;
+  font-family: var(--font-en-sans);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  margin-right: 12px;
+}
+.policy-meta dd {
+  display: inline-block;
+  font-family: var(--font-en-sans);
+}
+
+.back-to-top {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 48px;
+  font-family: var(--font-jp-sans);
+  font-size: 14px;
+  color: var(--color-navy);
+  text-decoration: none;
+  padding: 16px 28px;
+  border: 1px solid var(--color-navy);
+  letter-spacing: 0.15em;
+  transition: all 0.3s ease;
+}
+.back-to-top::before { content: "←"; }
+.back-to-top:hover {
+  background: var(--color-navy);
+  color: var(--color-base);
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  background: var(--color-navy);
+  color: var(--color-base);
+  padding: 72px 32px 32px;
+}
+.footer-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(216, 188, 137, 0.2);
+}
+.footer-logo {
+  font-family: var(--font-en-serif);
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--color-base);
+}
+.footer-tagline {
+  font-family: var(--font-jp-serif);
+  font-size: 14px;
+  margin-top: 12px;
+  color: var(--color-gold-soft);
+  letter-spacing: 0.1em;
+}
+.footer-nav {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.footer-nav a {
+  color: var(--color-base);
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  font-family: var(--font-jp-sans);
+  transition: color 0.3s ease;
+}
+.footer-nav a:hover { color: var(--color-gold-soft); }
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-top: 28px;
+  font-size: 12px;
+  color: rgba(250, 248, 243, 0.7);
+  letter-spacing: 0.06em;
+}
+.footer-bottom .updated { font-family: var(--font-en-sans); }
+
+/* フッター免責文 */
+.footer-disclaimer {
+  padding: 32px 0;
+  margin-top: 12px;
+  border-top: 1px solid rgba(216, 188, 137, 0.2);
+}
+.footer-disclaimer .disclaimer-label {
+  font-family: var(--font-en-serif);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--color-gold-soft);
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+}
+.footer-disclaimer p {
+  font-size: 12px;
+  line-height: 1.95;
+  color: rgba(250, 248, 243, 0.65);
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+/* ===== レスポンシブ ===== */
+@media (max-width: 768px) {
+  body { font-size: 15px; }
+  .header-inner { padding: 0 24px; }
+  .nav-pc { display: none; }
+  .nav-toggle { display: block; }
+  .page-hero { padding: 130px 24px 70px; }
+  .policy-content { padding: 60px 24px 90px; }
+  .policy-intro { padding: 24px 22px; }
+  .policy-article h2 { font-size: 19px; padding-left: 36px; }
+  .footer-top { flex-direction: column; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; gap: 8px; }
+}
+
+@media (min-width: 1600px) {
+  body { font-size: 18px; }
+}
+
+@media print {
+  .site-header, .nav-mobile, .back-to-top { display: none !important; }
+  .policy-content { padding: 24px; }
+  body { background: #fff; color: #000; font-size: 11pt; line-height: 1.6; }
+  a { color: #000; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="solmare株式会社 トップへ">solmare<span class="logo-mark" aria-hidden="true">
+      <svg viewBox="0 0 44 20" xmlns="http://www.w3.org/2000/svg">
+        <g>
+          <circle cx="10" cy="10" r="3" fill="currentColor"/>
+          <g stroke="currentColor" stroke-width="0.9" stroke-linecap="round" fill="none">
+            <line x1="10" y1="1.5" x2="10" y2="4.5"/>
+            <line x1="10" y1="15.5" x2="10" y2="18.5"/>
+            <line x1="1.5" y1="10" x2="4.5" y2="10"/>
+            <line x1="15.5" y1="10" x2="18.5" y2="10"/>
+            <line x1="3.5" y1="3.5" x2="5.6" y2="5.6"/>
+            <line x1="14.4" y1="14.4" x2="16.5" y2="16.5"/>
+            <line x1="16.5" y1="3.5" x2="14.4" y2="5.6"/>
+            <line x1="5.6" y1="14.4" x2="3.5" y2="16.5"/>
+          </g>
+        </g>
+        <g stroke="currentColor" stroke-width="1" stroke-linecap="round" fill="none">
+          <path d="M24 7 Q 27 4, 30 7 T 36 7 T 42 7"/>
+          <path d="M24 13 Q 27 10, 30 13 T 36 13 T 42 13"/>
+        </g>
+      </svg>
+    </span></a>
+    <nav class="nav-pc" aria-label="メインナビゲーション">
+      <a href="index.html#about">About</a>
+      <a href="index.html#service">Service</a>
+      <a href="index.html#approach">Approach</a>
+      <a href="index.html#profile">Profile</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#company">Company</a>
+      <a href="index.html#contact" class="nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="navMobile">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-mobile" id="navMobile" aria-label="モバイルナビゲーション">
+    <a href="index.html#about">私たちについて<small>About</small></a>
+    <a href="index.html#service">サービス<small>Service</small></a>
+    <a href="index.html#approach">アプローチ<small>Approach</small></a>
+    <a href="index.html#profile">代表プロフィール<small>Profile</small></a>
+    <a href="index.html#faq">よくある質問<small>FAQ</small></a>
+    <a href="index.html#company">会社概要<small>Company</small></a>
+    <a href="index.html#contact">お問い合わせ<small>Contact</small></a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero" aria-labelledby="pageTitle">
+    <div class="page-hero-inner">
+      <nav class="breadcrumb" aria-label="パンくず">
+        <a href="index.html">Home</a><span class="sep">/</span><span>Privacy Policy</span>
+      </nav>
+      <span class="en-label">Privacy Policy</span>
+      <h1 id="pageTitle">プライバシーポリシー</h1>
+      <p class="lead">
+        solmare株式会社（以下「当社」といいます）は、お客様の個人情報をお預かりするにあたり、
+        個人情報の保護に関する法律をはじめとする関連法令を遵守し、以下の方針に基づき適切に取り扱います。
+      </p>
+    </div>
+  </section>
+
+  <section class="policy-content">
+    <div class="policy-inner">
+
+      <div class="policy-intro">
+        当社は、お客様のプライバシーを尊重し、個人情報を厳格に管理することがお客様との信頼関係の基礎であると認識しております。
+        富裕層のお客様に対するファイナンシャルプランニングという業務の性質上、特に高い水準の守秘性が求められることを十分に理解し、以下のとおり個人情報保護方針を定めます。
+      </div>
+
+      <article class="policy-article" id="article-1">
+        <h2>個人情報の取得</h2>
+        <p>当社は、お問い合わせフォームへのご入力、ご面談、書面のご提出等を通じて、適法かつ公正な手段により個人情報を取得いたします。取得する個人情報には、以下のものが含まれます。</p>
+        <ul>
+          <li>氏名、フリガナ、会社名、役職等の属性情報</li>
+          <li>メールアドレス、電話番号、住所等の連絡先情報</li>
+          <li>ご相談の内容、ご家族構成、資産状況等、サービス提供に必要な情報</li>
+          <li>その他、お客様からご提供いただいた情報</li>
+        </ul>
+      </article>
+
+      <article class="policy-article" id="article-2">
+        <h2>個人情報の利用目的</h2>
+        <p>当社は、取得した個人情報を以下の目的のために利用いたします。これらの目的を超えて利用する場合は、あらかじめお客様のご同意をいただきます。</p>
+        <ul>
+          <li>お問い合わせ・ご相談への対応、ご返信のため</li>
+          <li>当社サービスのご提供、契約の履行、関連業務の遂行のため</li>
+          <li>当社サービスに関連する情報・お知らせのご案内のため</li>
+          <li>サービス品質の向上、新サービスの企画・開発のため</li>
+          <li>法令に基づく対応、紛争・問題の解決のため</li>
+        </ul>
+      </article>
+
+      <article class="policy-article" id="article-3">
+        <h2>個人情報の第三者提供</h2>
+        <p>当社は、以下の場合を除き、お客様の個人情報を第三者に提供することはありません。</p>
+        <ul>
+          <li>お客様のご同意を得た場合</li>
+          <li>法令に基づき開示が求められる場合</li>
+          <li>人の生命、身体または財産の保護のために必要であり、お客様のご同意を得ることが困難な場合</li>
+          <li>当社業務の遂行に必要な範囲で、税理士・弁護士・信託銀行等の業務提携先と情報を共有する必要がある場合（この場合も最小限の範囲に限定し、提携先にも当社と同等の守秘義務を課します）</li>
+        </ul>
+      </article>
+
+      <article class="policy-article" id="article-4">
+        <h2>個人情報の保護管理</h2>
+        <p>当社は、お預かりした個人情報の漏えい、滅失、毀損、不正アクセス等を防止するため、組織的・人的・物理的・技術的な安全管理措置を講じます。具体的には、アクセス権限の制限、業務委託先への監督、職員への教育・研修等を継続的に実施いたします。</p>
+        <p>個人情報の保管期間は、利用目的に応じて必要な範囲で定め、目的の達成後は速やかに、安全な方法で廃棄または消去いたします。</p>
+      </article>
+
+      <article class="policy-article" id="article-5">
+        <h2>個人情報の開示・訂正・利用停止等のご請求</h2>
+        <p>お客様は、当社が保有するご自身の個人情報について、開示、訂正、追加、削除、利用停止、消去または第三者提供の停止をご請求いただけます。</p>
+        <p>ご請求は、本ページ末尾に記載のお問い合わせ窓口よりお申し出ください。当社にてご本人確認をさせていただいたうえで、法令に従い、合理的な期間内に対応いたします。なお、法令により当社が応じる必要のない場合や、応じることが困難な場合は、その旨をご回答いたします。</p>
+      </article>
+
+      <article class="policy-article" id="article-6">
+        <h2>クッキー（Cookie）等の利用</h2>
+        <p>当社のウェブサイトでは、サイトの利用状況の把握およびサービス向上のため、クッキー等の技術を利用する場合があります。これらの情報には、お客様個人を特定する情報は含まれません。お客様はブラウザの設定によりクッキーの受け取りを拒否することができますが、その場合、本サイトの一部機能がご利用いただけない可能性があります。</p>
+      </article>
+
+      <article class="policy-article" id="article-7">
+        <h2>プライバシーポリシーの見直し</h2>
+        <p>当社は、法令の改正、サービス内容の変更、その他必要に応じて、本プライバシーポリシーを随時見直し、改定する場合があります。改定後の本ポリシーは、本ウェブサイトに掲載した時点から効力を生じるものとし、最終改定日を明記いたします。</p>
+      </article>
+
+      <article class="policy-article" id="article-8">
+        <h2>お問い合わせ窓口</h2>
+        <p>本プライバシーポリシーに関するお問い合わせ、個人情報の取扱いに関するご請求は、トップページのお問い合わせフォームよりご連絡ください。</p>
+        <div class="policy-contact-box">
+          <p style="margin-bottom: 0.6em;"><strong>solmare株式会社　個人情報保護管理者</strong></p>
+          <p style="margin-bottom: 0;">お問い合わせは <a href="index.html#contact">こちらのフォーム</a> よりお願いいたします。<br>
+          内容を拝見のうえ、3営業日以内にご返信いたします。</p>
+        </div>
+      </article>
+
+      <dl class="policy-meta">
+        <div><dt>制定日</dt><dd>2026.05.11</dd></div>
+        <div><dt>最終改定日</dt><dd>2026.05.11</dd></div>
+      </dl>
+
+      <a href="index.html" class="back-to-top">トップへ戻る</a>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">solmare</div>
+        <div class="footer-tagline">一族の資産を、次代へ。</div>
+      </div>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="index.html#about">About</a>
+        <a href="index.html#service">Service</a>
+        <a href="index.html#profile">Profile</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="privacy-policy.html">プライバシーポリシー</a>
+      </nav>
+    </div>
+
+    <div class="footer-disclaimer">
+      <p class="disclaimer-label">Disclaimer</p>
+      <p>
+        当社は金融商品取引業（投資助言・代理業、投資運用業、第一種・第二種金融商品取引業）の登録を有しておりません。個別の有価証券の推奨、具体的な投資判断の助言、金融商品の販売・媒介は行わず、ファイナンシャルプランニングの観点からの一般的な情報提供、および公表情報に基づく客観的な分析のご提供を業務としております。本サイトおよび当社の提供する分析情報は、特定の有価証券の取得・売却を推奨するものではありません。最終的な投資判断はお客様ご自身の責任において行ってください。
+      </p>
+    </div>
+
+    <div class="footer-bottom">
+      <div>&copy; <span id="year">2026</span> solmare Inc. All Rights Reserved.</div>
+      <div class="updated">Last Updated: 2026.05</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function() {
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 20) header.classList.add('scrolled');
+    else header.classList.remove('scrolled');
+  }, { passive: true });
+})();
+
+(function() {
+  const toggle = document.getElementById('navToggle');
+  const menu = document.getElementById('navMobile');
+  if (!toggle || !menu) return;
+  toggle.addEventListener('click', function() {
+    const open = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+  menu.querySelectorAll('a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      menu.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    });
+  });
+})();
+
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
