@@ -64,4 +64,4 @@ Disallow: /
 User-agent: DotBot
 Disallow: /
 
-Sitemap: <CANONICAL_URL>sitemap.xml
+Sitemap: https://solmare-inc.github.io/sitemap.xml
