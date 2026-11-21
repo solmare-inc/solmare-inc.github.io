@@ -1,5 +1,5 @@
 # solmare株式会社 robots.txt
-# https://www.solmare.example/
+# https://www.solmare-inc.com/
 
 User-agent: *
 Allow: /
@@ -64,4 +64,4 @@ Disallow: /
 User-agent: DotBot
 Disallow: /
 
-Sitemap: https://solmare-inc.github.io/sitemap.xml
+Sitemap: https://www.solmare-inc.com/sitemap.xml
